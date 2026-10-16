@@ -1,5 +1,7 @@
-Q1: 
-Q2: 
-Q3: 
-Q4: 
-Q5: 
+Q1: 36e39f9
+Q2: 2
+Q3: git pull --rebase origin main this command allows you to download your teammates changes and replay your local commits on top of them while integrating both sets of changes before you push again. 
+Q4: No, adding secrets.env to .gitignore does not remove it from Git's history, so the password is still exposed and should be changed immediately.
+Q5: git branch -d old-fix
+git push origin --delete old-fix
+s
