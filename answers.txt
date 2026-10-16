@@ -4,4 +4,3 @@ Q3: git pull --rebase origin main this command allows you to download your teamm
 Q4: No, adding secrets.env to .gitignore does not remove it from Git's history, so the password is still exposed and should be changed immediately.
 Q5: git branch -d old-fix
 git push origin --delete old-fix
-s
